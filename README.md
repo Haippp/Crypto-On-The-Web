@@ -1,0 +1,3 @@
+<h2 align="center"> Selamat Datang di Repository Pembelajaran Saya mengenai "Crypto On The Web" dari CryptoHack </h2>
+
+Disini terdapat penjelasan mengenai penyelesaian yang bisa dilihat pada file dengan ekstensi `markdown(.md)`. Kemudian juga tersedia [source code](./theSourceCode) atau kode program yang digunakan untuk menyelesaikan tantangan-tantangan yang ada.Kemudian juga ada file [requirements.txt](./theSourceCode/requirements.txt) yang berfungsi untuk membantu penginstalan library yang digunakan untuk penyelesaiann tantangannya.
