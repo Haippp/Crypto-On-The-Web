@@ -1,8 +1,8 @@
 # RSA or HMAC
-![](https://img.shields.io/badge/Jenis_enkripsi-JWT-purple) ![](https://img.shields.io/badge/Tingkat_kesulitan-Medium-green)
+![](https://img.shields.io/badge/Jenis_enkripsi-JWT-purple) ![](https://img.shields.io/badge/Tingkat_kesulitan-Sedang-green)
 
 ## 📑Deskripi Challange
-Disini kita disuruh agar bisa masuk sebagai admin, dimana algorima jwt yang digunakan adalah RS256
+Disini kita disuruh agar bisa masuk sebagai admin, dimana algoritma jwt yang digunakan adalah RS256
 
 Berikut ini adalah potongan kodenya:
 ```python
@@ -45,7 +45,7 @@ def get_pubkey():
 ```
 link tantangan : https://web.cryptohack.org/rsa-or-hmac/
 
-## 🧩Penyelesaian
+ 
 Algoritma RS256 bekerja dengan dua buah kunci dimana kunci privat digunakan untuk melakukan penandatanganan sedangkan public untuk melakukan validasi. Sedangkan HS256 hanya menggunakan satu buah kunci untuk tanda tangan dan verifikasi. Nah disinilah celahnya, Karena public key digunakan sebagai verifikasi dan bisa kita akses, juga algoritma yang digunakan kita bisa memilih salah satu. Maka dari itu kita gunakan public key tersebut untuk melakukan penandatanganan dan kita ubah algoritmanya menjadi HS256. Dan yapp kita dapat flagnya
 
 codenya bisa di lihat di -> [solve_RSAorHMAC.py](./theSourceCode/solve_RSAorHMAC.py).
